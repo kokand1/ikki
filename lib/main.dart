@@ -5,10 +5,10 @@ runApp(MaterialApp(
   debugShowCheckedModeBanner: false,
   home: Scaffold(
     appBar: AppBar(
-      title: Text("Imtihon",style: TextStyle(color: Colors.white,letterSpacing: 5,fontWeight:FontWeight.bold,),),
+      title: const Text("Ozgartirdim",style: TextStyle(color: Colors.white,letterSpacing: 5,fontWeight:FontWeight.bold,),),
       centerTitle: true,
       backgroundColor: Colors.teal,
-      leading: Icon(Icons.menu,color: Colors.white,),
+      leading: const Icon(Icons.menu,color: Colors.white,),
     ),
     body: Column(
       children: [
@@ -16,7 +16,7 @@ runApp(MaterialApp(
           width: double.infinity,
           height: 200,
           
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             color: Colors.red,
             borderRadius: BorderRadius.vertical(bottom: Radius.circular(70))
           ),
@@ -24,31 +24,31 @@ runApp(MaterialApp(
           child: Column(
             children: [
               Row(children: [
-                SizedBox(width: 10,),
+                const SizedBox(width: 10,),
                 Container(
                   height:80 ,
                   width: 170,
                   color: Colors.grey[300],
-                  child: Text("Nissan",style: TextStyle(fontSize: 50),),
+                  child: const Text("Nissan",style: TextStyle(fontSize: 50),),
                 ),
-                 SizedBox(width: 10,),
+                 const SizedBox(width: 10,),
                 Container(
                   height:80 ,
                   width: 170,
                   color: Colors.grey[300],
-                  child: Text("Ferrari",style: TextStyle(fontSize: 55),),
+                  child: const Text("Ferrari",style: TextStyle(fontSize: 55),),
                 ),
-                SizedBox(width: 10,),
+                const SizedBox(width: 10,),
                 Container(
                   height:80 ,
                   width: 170,
                   color: Colors.grey[300],
-                  child: Text("BMW",style: TextStyle(fontSize: 55,letterSpacing: 10,),),
+                  child: const Text("BMW",style: TextStyle(fontSize: 55,letterSpacing: 10,),),
                   
                 ),
                 
               ],),
-               Row(
+               const Row(
           children: [
             CircleAvatar(backgroundImage: AssetImage("rasmlar/bmw.jpg"),)
           ],
